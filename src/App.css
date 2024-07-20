@@ -1,0 +1,382 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================================ Page 1 CSS ======================================== */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5rem;
+  padding-top: 60px;
+  background-color: #1a1a2e; /* Base dark blue color */
+  background-image: url("./assets/grid lines1.png"),
+    linear-gradient(to bottom right, #1a1a2e, #16162b),
+    linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.03) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(255, 255, 255, 0.03) 75%,
+      rgba(255, 255, 255, 0.03)
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.03) 25%,
+      transparent 25%,
+      transparent 75%,
+      rgba(255, 255, 255, 0.03) 75%,
+      rgba(255, 255, 255, 0.03)
+    );
+  background-size: 100% 100%, 20px 20px, 20px 20px;
+  background-position: 0 0, 0 0, 10px 10px;
+}
+
+.content {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+  background: linear-gradient(90deg, #a6a6ff, #6c63ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.para {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+
+.coming-soon {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: fit-content;
+  width: 216px;
+  margin-left: 67px;
+}
+
+.divClass {
+  display: grid;
+}
+.divClass2 {
+  display: grid;
+}
+
+.coming-soon:hover {
+  background-color: #5a52d5;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  margin-right: 132px;
+}
+
+.image-grid img {
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.img1 {
+  margin-top: 17px;
+  /* width: 250px;
+  height: 189px; */
+}
+
+.img2 {
+  height: 148px;
+  margin-top: 35px;
+}
+.img6 {
+  height: 150px;
+  margin-top: 150px;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+.stats-container {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.stat-box {
+  background-color: #ffffff;
+  text-align: justify;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 48%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: #1e1e1e;
+}
+
+.stat-box span {
+  font-size: 0.8rem;
+  color: #1e1e1e;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 0;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .image-grid img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .stats-container {
+    flex-direction: column;
+  }
+
+  .stat-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.plusImage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plusImage img {
+  height: 35px;
+}
+
+/* =========================================== Page2 CSS ====================================================== */
+
+.page2Container {
+  width: 1423px;
+  height: 1348px;
+  top: 1268px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(42, 42, 43, 1);
+}
+
+.title {
+  font-family: Nohemi;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0px;
+  padding-top: 70px;
+  background: linear-gradient(90deg, #ffffff 0%, #999999 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subTitle {
+  padding: 25px;
+  font-family: Nohemi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background: linear-gradient(90deg, #ffffff 0%, #999999 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.globeSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  position: absolute;
+  object-fit: cover;
+}
+
+.curve {
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.globe {
+  margin-top: 50px;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.eclipseLeft {
+  margin-top: 27%;
+  margin-right: 55%;
+}
+
+.eclipseRight {
+  margin-top: 12%;
+  margin-left: 53%;
+}
+
+.Person1 {
+  height: 30%;
+  margin-top: 27.5%;
+  margin-right: 62%;
+  z-index: 4;
+}
+.Person2 {
+  margin-top: 25%;
+  margin-right: 48%;
+  z-index: 4;
+}
+.Person3 {
+  margin-right: 42%;
+  z-index: 4;
+  margin-top: 8%;
+}
+.Person4 {
+  margin-top: 2.5%;
+  margin-right: 30%;
+  z-index: 4;
+}
+.Person5 {
+  margin-top: -1.5%;
+  margin-right: 14%;
+  z-index: 4;
+}
+.Person6 {
+  margin-top: -2%;
+  margin-left: 7%;
+  z-index: 4;
+}
+.Person7 {
+  margin-top: 2%;
+  margin-left: 28%;
+  height: 32%;
+  z-index: 4;
+}
+.Person8 {
+  margin-top: 10.5%;
+  margin-left: 53%;
+  z-index: 4;
+}
+.Person9 {
+  margin-top: 14%;
+  margin-left: 47%;
+  z-index: 4;
+}
+.Person10 {
+  margin-top: 16%;
+  margin-left: 59%;
+}
+.Person11 {
+  margin-top: 24%;
+  margin-left: 48%;
+  z-index: 4;
+}
+.LGreen {
+  height: 4%;
+  margin-top: 31.6%;
+  z-index: 4;
+  margin-right: 57.5%;
+}
+.LOrange {
+  margin-top: 27%;
+  z-index: 4;
+  margin-right: 57%;
+}
+.LBlue {
+  margin-top: 18.9%;
+  margin-right: 47.3%;
+  z-index: 4;
+}
+.LInnerBlue {
+  margin-top: 19.2%;
+  margin-right: 47.3%;
+  z-index: 5;
+}
+.LoveEmoji {
+  margin-top: -4%;
+  margin-right: 26%;
+}
