@@ -19,6 +19,12 @@ import LOrange from "../assets/LOrange.png";
 import LBlue from "../assets/LBlue.png";
 import LoveEmoji from "../assets/LoveEmoji.png";
 import LInnerBlue from "../assets/LInnerBlue.png";
+import LInnerLime from "../assets/LInnerLime.png";
+import Heart from "../assets/Heart.png";
+import LLime from "../assets/LLime.png";
+import SmileEmoji from "../assets/SmileEmoji.png";
+import LInnerPink from "../assets/LInnerPink.png";
+import LPink from "../assets/LPink.png";
 
 const Page2 = () => {
   return (
@@ -69,8 +75,45 @@ const Page2 = () => {
         <img className="image LBlue" src={LBlue} alt="" />
         <img className="image LInnerBlue" src={LInnerBlue} alt="" />
         <img className="image LoveEmoji" src={LoveEmoji} alt="" />
+        <img className="image LInnerLime" src={LInnerLime} alt="" />
+        <img className="image LLime" src={LLime} alt="" />
+        <img className="image Heart" src={Heart} alt="" />
+        <img className="image SmileEmoji" src={SmileEmoji} alt="" />
+        <img className="image LInnerPink" src={LInnerPink} alt="" />
+        <img className="image LPink" src={LPink} alt="" />
         <img className="image eclipseLeft" src={EclipseLeft} alt="" />
         <img className="eclipseRight" src={EclipseRight} alt="" />
+      </div>
+      <div className="threeSections">
+        <div className="sectionProperties section1">
+          <p className="sectionTitle1">Content Nodes</p>
+          <p className="sectionContent1">
+            Content Nodes, Earn rewards for supplying <br />
+            their GPU, Storage and bandwidth for <br /> dCDN
+          </p>
+          <div className="deployButton">
+            <p className="">Deploy</p>
+          </div>
+        </div>
+        <div className="sectionProperties section2">
+          <p className="sectionTitle2">Orchestrators</p>
+          <p className="sectionContent2">
+            Orchestrators will be responsible for <br />
+            connecting the client with the content <br /> node for seamless
+            streaming. Traffic <br /> distribution will be based on multiple{" "}
+            <br />
+            factors like job type, performance
+          </p>
+        </div>
+        <div className="sectionProperties section3">
+          <p className="sectionTitle2">Validators</p>
+          <p className="sectionContent2">
+            Validators will be responsible for validating
+            <br />
+            the execution of dCDN Network. Validators <br /> will earn rewards
+            from Staking and earn a <br /> cut on the executions validated.
+          </p>
+        </div>
       </div>
     </div>
   );

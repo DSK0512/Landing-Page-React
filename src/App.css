@@ -380,3 +380,96 @@ h2 {
   margin-top: -4%;
   margin-right: 26%;
 }
+.LInnerLime {
+  margin-top: -0.2%;
+  margin-right: 3%;
+  z-index: 5;
+}
+.LLime {
+  margin-top: -0.5%;
+  margin-right: 3%;
+  z-index: 4;
+}
+.Heart {
+  margin-top: -2.4%;
+  margin-left: 24%;
+}
+.SmileEmoji {
+  margin-top: 3%;
+  margin-left: 42%;
+}
+.LInnerPink {
+  margin-top: 21.8%;
+  margin-left: 48.5%;
+  z-index: 5;
+}
+.LIPink {
+  margin-top: 21.5%;
+  margin-left: 48.5%;
+  z-index: 4;
+}
+.threeSections {
+  margin-top: 15%;
+  padding: 9%;
+  display: flex;
+  gap: 25px;
+}
+.sectionProperties {
+  border-radius: 24px;
+  width: 392px;
+  height: 256px;
+}
+.section1 {
+  background: rgba(107, 97, 255, 1);
+}
+.section2 {
+  background: rgba(254, 155, 243, 1);
+}
+.section3 {
+  background: rgba(173, 255, 228, 1);
+}
+.sectionTitle1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 9%;
+  background: rgba(237, 240, 255, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sectionContent1 {
+  background: rgba(237, 240, 255, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 9%;
+  margin-top: -4%;
+  font-weight: 600;
+}
+.sectionTitle2 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 9%;
+  background: rgba(30, 30, 30, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sectionContent2 {
+  background: rgba(30, 30, 30, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 9%;
+  margin-top: -4%;
+  font-weight: 600;
+}
+.deployButton {
+  background: rgba(255, 255, 255, 1);
+  padding: 11px;
+  margin: 0px;
+  width: 119px;
+  text-align: center;
+  border-radius: 100px;
+  margin-left: 50%;
+  height: 31px;
+}
+.deployButton p {
+  margin-top: 2px;
+}
