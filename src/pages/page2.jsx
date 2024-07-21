@@ -104,6 +104,7 @@ const Page2 = () => {
             <br />
             factors like job type, performance
           </p>
+          <p className="comingSoonButton">Coming Soon</p>
         </div>
         <div className="sectionProperties section3">
           <p className="sectionTitle2">Validators</p>
@@ -113,6 +114,7 @@ const Page2 = () => {
             the execution of dCDN Network. Validators <br /> will earn rewards
             from Staking and earn a <br /> cut on the executions validated.
           </p>
+          <p className="comingSoonButton2">Coming Soon</p>
         </div>
       </div>
     </div>

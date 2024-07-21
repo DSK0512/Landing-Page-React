@@ -1,5 +1,6 @@
 import Page1 from "./pages/page1";
 import Page2 from "./pages/page2";
+import Page3 from "./pages/page3";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Page1 />
       <Page2 />
+      <Page3 />
     </>
   );
 }
